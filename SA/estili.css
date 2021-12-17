@@ -1,0 +1,36 @@
+*{
+    padding:0;
+    margin:0;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 50vh;
+    background-color: rgb(17, 16, 16);
+    color: white;
+    font-family: 'principal';
+
+}
+
+h1{
+    color: white;
+    font-family: 'principal';
+}
+.container input{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+@font-face {
+    font-family:'principal';
+    src: url(./fonts/RobotoCondensed-Bold.ttf);
+}
+@font-face {
+    font-family: 'fonte_secundaria';
+    src: url(./fonts/RobotoCondensed-BoldItalic.ttf);
+}
